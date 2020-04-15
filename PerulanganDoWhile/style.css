@@ -1,0 +1,22 @@
+html, body {
+    width: 100%;
+}
+
+p {
+    color: red;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.tabelBeli {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
