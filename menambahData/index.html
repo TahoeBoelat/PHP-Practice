@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menambahkan Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Save Data Buku</h1>
+    </header>
+    <main id="item">
+        <form action="savebuku.php" method="post">
+            <label for="kodeBuku">Kode Buku</label>
+            <input name="kodeBuku" type="text" size="20">
+            <br>
+            <label for="namaBuku">Judul Buku</label>
+            <input name="namaBuku" type="text" size="20">
+            <br>
+            <label for="penulisBuku">Penulis Buku</label>
+            <input name="penulisBuku" type="text" size="20">
+            <br>
+            <label for="hargaBuku">Harga Buku</label>
+            <input name="hargaBuku" type="text" size="20">
+            <br>
+            <label for="tahunBuku">Tahun Buku</label>
+            <input name="tahunBuku" type="text" size="20">
+            <br>
+            <label for="penerbitBuku">Penerbit Buku</label>
+            <input name="penerbitBuku" type="text" size="20">
+            <div class="button">
+                <input type="submit" value="Simpan">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
